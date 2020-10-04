@@ -1,0 +1,9 @@
+.Question {
+  border: 1px solid gray;
+  padding: 1rem;
+}
+
+.Question_correct {
+  background: green;
+  color: white;
+}
