@@ -3,7 +3,27 @@
   padding: 1rem;
 }
 
-.Question_correct {
+.Question_Button {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  background: white;
+  border: 1px solid gray;
+}
+.Question_Button:active {
+  background: #ccc;
+}
+.Question_Button:hover:not(:disabled) {
+  background: #eee;
+}
+.Question_Button:focus {
+  outline: 1px solid blue;
+}
+
+.Question_Button_correct {
   background: green;
   color: white;
+}
+
+.Question_Button_picked {
+  box-shadow: 0 0 0 2px gray;
 }
